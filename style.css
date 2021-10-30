@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #0e141f;
+  color: #fff;
+}
+#navbar {
+  height: 3.5rem;
+  width: 55vw;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #0e141f;
+  border: 1px solid #192538;
+  box-shadow: 0.1rem 0.1rem 0.1rem #192538;
+  float: right;
+  border-radius: 25px 4px;
+}
+#logo img {
+  position: absolute;
+  margin-left: -36rem;
+  height: 9rem;
+  width: 9rem;
+}
+#navbar ul {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+#navbar ul li {
+  list-style: none;
+}
+#navbar ul li a {
+  display: block;
+  color: white;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+#navbar ul a:hover {
+  color: #c2c2c5;
+}
+#navbar .item {
+  padding: 1.3rem 4rem;
+  line-height: 14px;
+}
+#photo img {
+  background-image: transparent;
+  position: absolute;
+  top: -2rem;
+  left: 55rem;
+  height: 15rem;
+  float: right;
+  border-bottom: 0.5rem solid #e24561;
+  border-radius: 50rem;
+}
+#introduction {
+  display: block;
+  position: relative;
+  top: 16rem;
+  left: 0;
+  margin: 0 8rem;
+}
+#self-intro {
+  position: relative;
+  width: 44rem;
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+#resume-button {
+  background-color: #f80935;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  margin: 0.1rem 13rem;
+}
+#skill {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 20rem;
+  left: 0;
+  margin-bottom: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#skill .circle {
+  display: inline-block;
+  height: 11rem;
+  width: 11rem;
+  border: 1rem solid white;
+  border-radius: 50%;
+  margin: 4rem;
+  text-align: center;
+  padding: 4rem 1rem;
+}
+#skill .circle:nth-child(1) {
+  border: 1rem solid #f80935;
+  border-top: 1rem solid white;
+}
+#skill .circle:nth-child(2) {
+  border: 1rem solid #f80935;
+  border-top: 1rem solid white;
+}
+#skill .circle:nth-child(3) {
+  border: 1rem solid #f80935;
+  border-right: 1rem solid white;
+  border-top: 1rem solid white;
+}
+#project {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#project-Container .Container {
+  height: 15rem;
+  width: 16rem;
+  border-radius: 1rem;
+  display: inline-block;
+  border: 0.1rem solid white;
+  margin: 2rem;
+  padding: 2.5rem;
+}
+#project-Container .button {
+  display: inline-block;
+  border-radius: 2rem;
+  height: 2rem;
+  width: 8rem;
+  border: 0.1rem solid white;
+  margin: 0.6rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#project-Container a:hover {
+  transition: background-color 0.6s ease-in-out;
+  background: #f80935;
+}
+.title {
+  color: #f80935;
+  margin: 0 0 3rem auto;
+  align-content: center;
+}
+#contect {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#contect :hover {
+  transition: background-color 0.6s ease-in-out;
+
+  background: #f80935;
+}
+#contect a {
+  display: block;
+  cursor: pointer;
+  padding: 1rem 3rem;
+  list-style: none;
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid white;
+  font-size: 1rem;
+}
+a:link {
+  text-decoration: none;
+}
+a {
+  color: white;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.3rem;
+}
+#footer span {
+  color: #f80935;
+}
+@media (max-width: 75rem) {
+}
